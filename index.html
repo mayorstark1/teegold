@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>teehairmpire — Luxury Hair</title>
+  <meta name="description" content="TeeHairmpire — premium human hair extensions and luxury hair care." />
+  <!-- Open Graph -->
+  <meta property="og:title" content="teehairmpire — Luxury Hair" />
+  <meta property="og:description" content="Premium human hair extensions and luxury hair care." />
+  <meta property="og:image" content="/assets/og-image.jpg" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">teehairmpire</a>
+      <nav class="nav">
+        <a href="#collections">Collections</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="cta">Book / Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner container">
+        <h1>Luxury hair, crafted for queens</h1>
+        <p class="lead">Premium, ethically-sourced human hair extensions and bespoke care. Uncompromising quality, timeless style.</p>
+        <p><a href="#collections" class="btn primary">Shop Collections</a></p>
+      </div>
+    </section>
+
+    <section id="collections" class="collections container">
+      <h2>Featured Collections</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="/assets/collection1.jpg" alt="Silk Remy Collection">
+          <h3>Silk Remy Collection</h3>
+          <p>Ultra-soft remy hair with natural shine.</p>
+        </article>
+        <article class="card">
+          <img src="/assets/collection2.jpg" alt="Luxury Lace Wigs">
+          <h3>Luxury Lace Wigs</h3>
+          <p>Hand-tied, undetectable hairlines.</p>
+        </article>
+        <article class="card">
+          <img src="/assets/collection3.jpg" alt="Bespoke Care">
+          <h3>Bespoke Care</h3>
+          <p>Curated products to protect and prolong beauty.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About teehairmpire</h2>
+      <p>We source the finest human hair, blending traditional craftsmanship with modern luxury. Our mission is to empower confidence through premium hair solutions.</p>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <p>Questions? Want a custom order or wholesale? Email <a href="mailto:hello@teehairmpire.com">hello@teehairmpire.com</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> teehairmpire — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
