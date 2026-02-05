@@ -5,12 +5,17 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>teehairmpire — Luxury Hair</title>
   <meta name="description" content="TeeHairmpire — premium human hair extensions and luxury hair care." />
+  
   <!-- Open Graph -->
   <meta property="og:title" content="teehairmpire — Luxury Hair" />
   <meta property="og:description" content="Premium human hair extensions and luxury hair care." />
   <meta property="og:image" content="/assets/og-image.jpg" />
+  
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -26,54 +31,67 @@
   </header>
 
   <main>
+    <!-- Hero Section -->
     <section class="hero">
       <div class="hero-inner container">
         <h1>Luxury hair, crafted for queens</h1>
-        <p class="lead">Premium, ethically-sourced human hair extensions and bespoke care. Uncompromising quality, timeless style.</p>
+        <p class="lead">Premium, ethically sourced human hair extensions. Uncompromising quality and timeless style.</p>
         <p><a href="#collections" class="btn primary">Shop Collections</a></p>
       </div>
     </section>
 
+    <!-- Collections Section -->
     <section id="collections" class="collections container">
       <h2>Featured Collections</h2>
       <div class="grid">
         <article class="card">
           <img src="FB1.jpg" alt="Pixel Curl Collection">
-          <h3>pixel curl Collection</h3>
+          <h3>Pixel Curl Collection</h3>
           <p>Ultra soft curly hair with natural shine.</p>
         </article>
         <article class="card">
-          <img src="/assets/FB2.jpg" alt="Deep Wave frontal">
-          <h3>Deep wave frontal</h3>
+          <img src="FB2.jpg" alt="Deep Wave Frontal">
+          <h3>Deep Wave Frontal</h3>
           <p>Hand-tied, undetectable hairlines.</p>
         </article>
         <article class="card">
-          <img src="/assets FB1.jpg" alt="Bespoke Care">
-          <h3>Bespoke Care</h3>
+          <img src="FB4.jpg" alt="Sesi body wave collection">
+          <h3>body wave</h3>
           <p>Curated products to protect and prolong beauty.</p>
         </article>
       </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="about container">
       <h2>About teehairmpire</h2>
       <p>We source the finest human hair, blending traditional craftsmanship with modern luxury. Our mission is to empower confidence through premium hair solutions.</p>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="contact container">
       <h2>Contact</h2>
-      <p>Questions? Want a custom order or wholesale? Email <a href="mailto:hello@teehairmpire.com">hello@teehairmpire.com</a>.</p>
+      <p>Questions? Want a custom order or wholesale? Email 
+        <a href="mailto:teegold005@gmail.com">teegold005gmail.com.com</a>.
+      </p>
+      <p>📱 WhatsApp: 
+        <a href="https://wa.me/+2348082185138" target="_blank">Chat with us on WhatsApp</a>
+      </p>
+      <p>📘 Facebook: 
+        <a href="https://www.facebook.com/oghagbon.augustina.7/" target="_blank">Visit our Facebook Page</a>
+      </p>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>© <span id="year"></span> teehairmpire — All rights reserved.</p>
+      <p>© <span id="year"></span> teehairmpire All rights reserved.</p>
     </div>
   </footer>
 
   <script>
-    document.getElementById('2026').textContent = new Date().getFullYear();
+    // Fix: update footer year dynamically
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
